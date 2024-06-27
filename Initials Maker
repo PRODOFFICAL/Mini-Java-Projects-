@@ -1,3 +1,29 @@
 import java.util.Scanner;
 
 public class Initials {
+public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input your name with one space between each name:");
+        String name = input.nextLine();
+
+             int firstSpaceIndex = name.indexOf(' ');
+	         int secondSpaceIndex = name.indexOf(' ', firstSpaceIndex + 1);
+
+  	         char initial1 = name.charAt(0);
+	         char initial2 = name.charAt(firstSpaceIndex + 1);
+	         char initial3 = name.charAt(secondSpaceIndex + 1);
+
+
+
+        System.out.println(name + ", your initials are: " + initial1 + initial2 + initial3);
+    }
+
+
+
+
+
+
+
+
+
+}
