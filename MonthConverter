@@ -13,6 +13,54 @@ import java.util.Scanner;
 
           System.out.print("\nEnter Year: ");
           int inYear = input.nextInt();
+switch (inMonth)
+          {
+             case 1:
+                 System.out.println("This Date is January " +inDay+", "+inYear );
+                 break;
+             case 2:
+                 System.out.println("This Date is February " +inDay+", "+inYear );
+                 break;
+             case 3:
+              System.out.println("This Date is March " +inDay+", "+inYear );
+                 break;
+             case 4:
+                 System.out.println("This Date is April " +inDay+", "+inYear );
+                 break;
+             case 5:
+                 System.out.println("This Date is May " +inDay+", "+inYear );
+                 break;
+             case 6:
+                 System.out.println("This Date is June " +inDay+", "+inYear );
+                 break;
+             case 7:
+                 System.out.println("This Date is July " +inDay+", "+inYear );
+                 break;
+             case 8:
+             System.out.println("This Date is August " +inDay+", "+inYear );
+                 break;
+             case 9:
+                 System.out.println("This Date is September " +inDay+", "+inYear );
+                 break;
+             case 10:
+                 System.out.println("This Date is October " +inDay+", "+inYear );
+                 break;
+             case 11:
+                 System.out.println("This Date is November " +inDay+ ", "+inYear );
+                 break;
+             case 12:
+                 System.out.println("This Date is December " +inDay+", "+inYear );
+                 break;
+             default:
+                 System.out.println("That is an invalid number for month!");
+
+          }
+
+
+
+
+     }
+ }
 
 
 
