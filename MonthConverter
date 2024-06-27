@@ -1,1 +1,20 @@
+import java.util.Scanner;
+
+ public class MonthConverter
+ {
+     public static void main(String[] args)
+     {
+         Scanner input = new Scanner(System.in);
+ System.out.print("\nEnter Month: ");
+          int inMonth = input.nextInt();
+
+           System.out.print("\nEnter Day: ");
+          int inDay = input.nextInt();
+
+          System.out.print("\nEnter Year: ");
+          int inYear = input.nextInt();
+
+
+
+
 
