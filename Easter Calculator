@@ -4,4 +4,13 @@ import java.util.*;
 
 public class SuperChallenge {
 
+public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Please enter your current year: ");
+        int y = input.nextInt();public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Please enter your current year: ");
+        int y = input.nextInt();
 
